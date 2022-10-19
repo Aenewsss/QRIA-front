@@ -1,4 +1,5 @@
 import Head from "next/head"
+import Script from "next/script"
 import React from "react"
 import { Footer } from "./Footer"
 import { Navbar } from "./Navbar"
@@ -11,7 +12,7 @@ export const MainContainer = ({ children }) => {
                 <meta name="description" content="QRIA tech. Empresa de serviços digitais" />
                 <link rel="icon" href="/favicon.svg" />
                 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" />
-                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+                <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></Script>
             </Head>
 
             <Navbar />
