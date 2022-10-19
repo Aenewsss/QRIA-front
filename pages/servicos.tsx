@@ -27,7 +27,7 @@ export default function Jobs() {
                 <div className="col-md-6 d-flex justify-content-start">
                     <p className="text-l-gray">
                         De uma tela "bonitinha" e funcional a sistemas robustos com toda
-                        estrutura Front-End & Back-End com APIs & Integrações.
+                        estrutura Front-End, Back-End com APIs e Integrações.
                     </p>
                 </div>
                 <div className="col-md-6 d-flex justify-content-start align-items-center fs-5">
