@@ -1,26 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+:root {
+  --black: #1E1E1E;
+  --gray: #232526;
+  --pink: #ED0FF6;
+  --purple: #8E4FE2;
+  --light-gray: #B8B8B8;
+}
+
 html,
 body {
+  background-color: var(--black);
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+section {
+  background-color: var(--black);
+}
+
 a {
-  color: inherit;
+  color: unset;
+  text-decoration: none;
+  transition: .3s ease;
+}
+
+a:hover {
+  color: var(--pink);
+  transform: scale(1.04);
   text-decoration: none;
 }
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
 }
+
+nav {
+  z-index: 100;
+}
+
+.bg-gray {
+  background-color: var(--gray);
+}
+
+.nav-link {
+  transition: .3s ease;
+}
+
+.nav-link:hover {
+  transform: scale(1.1);
+}
+
+.pt-10 {
+  padding-top: 10rem;
+}
+.pb-10 {
+  padding-bottom: 10rem;
+}
+
+.gradient-text {
+  background: -webkit-linear-gradient(45deg, var(--purple) 20%,var(--pink) 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-text2 {
+  background: -webkit-linear-gradient(90deg, var(--purple) ,var(--pink));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-top {
+  background-image: url("/bg-top.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 10%;
+}
+
+.design-text {
+  bottom: 10px;
+  left: -100px;
+}
+
+.text-l-gray {
+  color: var(--light-gray);
+}
+
+.text-pink {
+  color: var(--pink);
+}
+
+.team {
+  top: 200px;
+  left: 40px;
+}
+
+.ls {
+  letter-spacing: 2px;
+}
+
+.link-social:hover {
+  color: var(--purple) !important;
+}
+
+input:focus-visible {
+  outline: none !important;
+}
+
+.divider {
+  background: linear-gradient(45deg, transparent, var(--purple), var(--pink), transparent);
+  height: 2px;
+}
+
+.divider-vertical {
+  background: linear-gradient(180deg, transparent, var(--purple), var(--pink), transparent);
+  width: 1px;
+}
+
 
 @media (prefers-color-scheme: dark) {
   html {
-    color-scheme: dark;
+    color-scheme: var(--black);
   }
   body {
     color: white;
-    background: black;
+    background: var(--black);
   }
 }
