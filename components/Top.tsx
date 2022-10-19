@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 export const Top = () => {
     return (
         <section className="pt-10 pb-10 d-flex justify-content-center align-items-center  bg-top">
@@ -9,7 +11,7 @@ export const Top = () => {
                     </p>
                     De Suas Ideias.
                 </h1>
-                <img className="pt-5 mt-5" width={20} src="/arrow-down.svg" />
+                <Image className="pt-5 mt-5" width={20} src="/arrow-down.svg" />
             </div>
         </section>
     )

@@ -1,3 +1,4 @@
+import Image from "next/image"
 import React from "react"
 import { ContactComponent } from "../components/ContactComponent"
 import { Divider } from '../components/Divider'
@@ -6,7 +7,7 @@ export default function Jobs() {
     return (
         <section className="pt-10 pb-5  mb-5 container">
 
-            <img className="img-fluid mb-5" src="/image-services.png" alt="image-services.png" />
+            <Image className="Image-fluid mb-5" src="/image-services.png" alt="image-services.png" />
 
             <div className="row mt-5 pt-5 mb-5 pb-5">
                 <div className="col-md-6 d-flex justify-content-start">

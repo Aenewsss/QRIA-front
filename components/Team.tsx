@@ -1,3 +1,4 @@
+import Image from "next/image"
 import React from "react"
 import { Divider } from "./Divider"
 
@@ -9,24 +10,24 @@ export const Team = () => {
                     <div className="d-flex flex-column justify-content-start">
                         <div className="d-flex flex-row gap-4">
                             <div className="d-flex flex-column mt-5 pt-5 text-center">
-                                <img src="/rodrigo.png" alt="rodrigo.png" />
+                                <Image src="/rodrigo.png" alt="rodrigo.png" />
                                 <h3 className="mt-4 fw-bold">Rodrigo Abreu</h3>
                                 <p className="text-l-gray fs-5">Product Design</p>
                             </div>
                             <div className="d-flex flex-column mb-5 pb-5 text-center">
-                                <img src="/davi.png" alt="davi.png" />
+                                <Image src="/davi.png" alt="davi.png" />
                                 <h3 className="mt-4 fw-bold">Davi Speck</h3>
                                 <p className="text-l-gray fs-5">Arquiteto De Software</p>
                             </div>
                         </div>
                         <div className="d-flex flex-row gap-4">
                             <div className="d-flex flex-column mt-5 pt-5 text-center">
-                                <img src="/ale.png" alt="ale.png" />
+                                <Image src="/ale.png" alt="ale.png" />
                                 <h3 className="mt-4 fw-bold">Alexandre Oliveira</h3>
                                 <p className="text-l-gray fs-5">Analista De Negócios</p>
                             </div>
                             <div className="d-flex flex-column mb-5 pb-5 text-center">
-                                <img src="/aena.png" alt="aena.png" />
+                                <Image src="/aena.png" alt="aena.png" />
                                 <h3 className="mt-4 fw-bold">Aenã Martinelli</h3>
                                 <p className="text-l-gray fs-5">Desenvolvedor Full Stack</p>
                             </div>
@@ -36,7 +37,7 @@ export const Team = () => {
                 </div>
                 <div className="col-md-6 d-flex flex-column justify-content-start">
                     <div className="position-relative">
-                        <img className="img-fluid" src="/calendar.svg" alt="calendar.svg" />
+                        <Image className="Image-fluid" src="/calendar.svg" alt="calendar.svg" />
                         <div className="position-absolute team">
                             <h2 className="display-2 text-white">Mentes <br /> Geniais Por <br /> Trás Da <br /> QRIA</h2>
                             <p className="text-l-gray mt-4 fs-5">

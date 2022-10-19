@@ -1,3 +1,4 @@
+import Image from "next/image"
 import Link from "next/link"
 import React from "react"
 
@@ -24,7 +25,7 @@ export const ContactComponent = () => {
                         <input className="bg-transparent border-0 pt-3 border-bottom text-white ps-5" placeholder="Mensagem *" type="text" />
                         <Link href="/contato" className="text-pink mt-3 fw-bold">
                             ENTRAR EM CONTATO
-                            <img className="ms-2 align-middle" src="/arrow-right.svg" alt="arrow-right.svg" />
+                            <Image className="ms-2 align-middle" src="/arrow-right.svg" alt="arrow-right.svg" />
                         </Link>
                     </form>
                 </div>

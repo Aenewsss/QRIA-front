@@ -1,3 +1,4 @@
+import Image from "next/image"
 import Link from "next/link"
 import React from "react"
 
@@ -19,7 +20,7 @@ export const Transform = () => {
 
             <div className="row mt-5 d-flex align-items-center">
                 <div className="col-md-6 d-flex justify-content-start">
-                    <img src="/trio-image.png" alt="trio-image.png" />
+                    <Image src="/trio-image.png" alt="trio-image.png" />
                 </div>
 
                 <div className="col-md-6 d-flex flex-column justify-content-start">
@@ -29,7 +30,7 @@ export const Transform = () => {
                     </p>
                     <Link href="/jobs" className="text-pink mt-4">
                         CONHEÇA NOSSOS TRABALHOS
-                        <img className="ms-2 align-middle" src="/arrow-right.svg" alt="arrow-right.svg" />
+                        <Image className="ms-2 align-middle" src="/arrow-right.svg" alt="arrow-right.svg" />
                     </Link>
                 </div>
             </div>
@@ -43,12 +44,12 @@ export const Transform = () => {
                     </p>
                     <Link href="/produtos" className="text-pink mt-4">
                         NOSSO PRODUTOS
-                        <img className="ms-2 align-middle" src="/arrow-right.svg" alt="arrow-right.svg" />
+                        <Image className="ms-2 align-middle" src="/arrow-right.svg" alt="arrow-right.svg" />
                     </Link>
                 </div>
 
                 <div className="col-md-6 d-flex justify-content-end">
-                    <img src="/tech-images.png" alt="trio-image.png" />
+                    <Image src="/tech-images.png" alt="trio-image.png" />
 
                 </div>
             </div>
