@@ -1,4 +1,4 @@
-import Image from "next/image"
+// import Image from "next/image"
 import Link from "next/link"
 import React from "react"
 import { Divider } from "./Divider"
@@ -20,7 +20,7 @@ export const PorfolioMain = () => {
                             </h3>
                             <p className="text-l-gray">UX UI Design - Front End - Back End</p>
                         </div>
-                        <Image src="/arrow-right.svg" alt="arrow-right.svg" width={60} />
+                        <img className="img-fluid" src="/arrow-right.svg" alt="arrow-right.svg" width={60} />
                     </div>
                     <Divider />
 
@@ -34,7 +34,7 @@ export const PorfolioMain = () => {
                             </h3>
                             <p className="text-l-gray">UX UI Design - Front End - Back End</p>
                         </div>
-                        <Image src="/arrow-right.svg" alt="arrow-right.svg" width={60} />
+                        <img className="img-fluid" src="/arrow-right.svg" alt="arrow-right.svg" width={60} />
                     </div>
                     <Divider />
 
@@ -43,9 +43,11 @@ export const PorfolioMain = () => {
                 <div className="col-md-6"></div>
             </div>
 
-            <Link href="/jobs" className="text-pink mt-5 ">
-                PRÓXIMOS JOBS
-                <Image className="ms-2 align-middle" src="/arrow-right.svg" alt="arrow-right.svg" />
+            <Link href="/jobs" className="text-pink mt-5">
+                <a>
+                    PRÓXIMOS JOBS
+                    <img className="ms-2 align-middle img-fluid" src="/arrow-right.svg" alt="arrow-right.svg" />
+                </a>
             </Link>
         </section>
     )

@@ -6,7 +6,7 @@ import { Divider } from '../components/Divider'
 export default function About() {
     return (
         <section className="pt-10 pb-5  mb-5 container">
-            <Image className="Image-fluid" src="/image-about.png" alt="image-about.png" />
+            <img className="img-fluid" src="/image-about.png" alt="image-about.png" />
 
             <ContactComponent />
             <Divider />

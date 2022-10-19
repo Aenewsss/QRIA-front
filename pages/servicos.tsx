@@ -7,7 +7,7 @@ export default function Jobs() {
     return (
         <section className="pt-10 pb-5  mb-5 container">
 
-            <Image className="Image-fluid mb-5" src="/image-services.png" alt="image-services.png" />
+            <img className="img-fluid mb-5" src="/image-services.png" alt="image-services.png" />
 
             <div className="row mt-5 pt-5 mb-5 pb-5">
                 <div className="col-md-6 d-flex justify-content-start">
@@ -26,7 +26,7 @@ export default function Jobs() {
             <div className="row mt-5 pt-5 mb-5 pb-5">
                 <div className="col-md-6 d-flex justify-content-start">
                     <p className="text-l-gray">
-                        De uma tela "bonitinha" e funcional a sistemas robustos com toda
+                        De uma tela &quot;bonitinha&quot; e funcional a sistemas robustos com toda
                         estrutura Front-End, Back-End com APIs e Integrações.
                     </p>
                 </div>

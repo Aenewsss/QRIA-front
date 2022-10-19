@@ -13,9 +13,9 @@ export const ContactComponent = () => {
                         Em Realidade
                     </h2>
                     <div className="d-flex gap-3 mt-5 pt-5">
-                        <Link href="/contato" className="link-social text-secondary mt-3 ls fs-5">LINKEDIN</Link>
-                        <Link href="/contato" className="link-social text-secondary mt-3 ls fs-5">GITHUB</Link>
-                        <Link href="/contato" className="link-social text-secondary mt-3 ls fs-5">INSTAGRAM</Link>
+                        <Link href="/contato" className="link-social text-secondary mt-3 ls fs-5"><a>LINKEDIN</a></Link>
+                        <Link href="/contato" className="link-social text-secondary mt-3 ls fs-5"><a>GITHUB</a></Link>
+                        <Link href="/contato" className="link-social text-secondary mt-3 ls fs-5"><a>INSTAGRAM</a></Link>
                     </div>
                 </div>
                 <div className="col-md-6">
@@ -24,13 +24,15 @@ export const ContactComponent = () => {
                         <input className="bg-transparent border-0 pt-3 border-bottom text-white ps-5" placeholder="Email *" type="text" />
                         <input className="bg-transparent border-0 pt-3 border-bottom text-white ps-5" placeholder="Mensagem *" type="text" />
                         <Link href="/contato" className="text-pink mt-3 fw-bold">
-                            ENTRAR EM CONTATO
-                            <Image className="ms-2 align-middle" src="/arrow-right.svg" alt="arrow-right.svg" />
+                            <a>
+                                ENTRAR EM CONTATO
+                                <img className="ms-2 align-middle img-fluid" src="/arrow-right.svg" alt="arrow-right.svg"/>
+                            </a>
                         </Link>
                     </form>
                 </div>
             </div>
-        
+
         </section>
     )
 }
