@@ -1,3 +1,4 @@
+import Link from "next/link"
 import React from "react"
 
 export const Design = () => {
@@ -14,10 +15,10 @@ export const Design = () => {
                     usabilidade, além de desenvolvimento de sites e sistemas <br />
                     robustos.
                 </p>
-                <a href="/servicos" className="text-pink mt-5">
+                <Link href="/servicos" className="text-pink mt-5">
                     VER NOSSOS SERVIÇOS
                     <img className="ms-2 align-middle" src="/arrow-right.svg" alt="arrow-right.svg" />
-                </a>
+                </Link>
             </div>
         </section>
     )

@@ -1,3 +1,4 @@
+import Link from "next/link"
 import React from "react"
 import { Divider } from "./Divider"
 
@@ -41,10 +42,10 @@ export const PorfolioMain = () => {
                 <div className="col-md-6"></div>
             </div>
 
-            <a href="/jobs" className="text-pink mt-5 ">
+            <Link href="/jobs" className="text-pink mt-5 ">
                 PRÓXIMOS JOBS
                 <img className="ms-2 align-middle" src="/arrow-right.svg" alt="arrow-right.svg" />
-            </a>
+            </Link>
         </section>
     )
 }

@@ -1,3 +1,4 @@
+import Link from "next/link"
 import React from "react"
 
 export const Transform = () => {
@@ -26,10 +27,10 @@ export const Transform = () => {
                     <p className="text-l-gray mt-4 fs-5">
                         Somos movidos a desafios de fazer o seu negócio aparecer e realmente ser reconhecido na internet.
                     </p>
-                    <a href="/jobs" className="text-pink mt-4">
+                    <Link href="/jobs" className="text-pink mt-4">
                         CONHEÇA NOSSOS TRABALHOS
                         <img className="ms-2 align-middle" src="/arrow-right.svg" alt="arrow-right.svg" />
-                    </a>
+                    </Link>
                 </div>
             </div>
 
@@ -40,10 +41,10 @@ export const Transform = () => {
                         Cada projeto é único e não costumamos trabalhar para clientes e sim COM os clientes,
                         uma equipe altamente capacitada para entregar sempre o melhor.
                     </p>
-                    <a href="/produtos" className="text-pink mt-4">
+                    <Link href="/produtos" className="text-pink mt-4">
                         NOSSO PRODUTOS
                         <img className="ms-2 align-middle" src="/arrow-right.svg" alt="arrow-right.svg" />
-                    </a>
+                    </Link>
                 </div>
 
                 <div className="col-md-6 d-flex justify-content-end">
